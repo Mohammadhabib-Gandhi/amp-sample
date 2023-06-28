@@ -28,7 +28,19 @@ limitations under the License.
     <meta name="amp-google-client-id-api" content="googleanalytics" />
 
     <script async="" src="https://cdn.ampproject.org/v0.js"></script>
-
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+      {
+        "vars" : {
+          "gtag_id": "G-Z7MSR7SSLD",
+          "config" : {
+            "G-Z7MSR7SSLD": { "groups": "default" }
+          }
+        }
+      }
+    </script>
+    </amp-analytics>
     <style amp-boilerplate="">
       body {
         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
